@@ -6,7 +6,7 @@
  */
 
 //
-let initialized = false;
+let initialized = !!window.fbq;
 let debug = false;
 
 /**
